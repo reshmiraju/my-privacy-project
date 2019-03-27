@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="View profile" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Search Friend" />
+        <item
+            android:id="@+id/request"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="View Request" />
+        <item
+            android:id="@+id/post"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Post Photo" />
+        <item
+            android:id="@+id/view"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="View post" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Chat" />
+        <item
+            android:id="@+id/privacy"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Privacy" />
+        <item
+            android:id="@+id/cmplt"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Complaints" />
+        <item
+            android:id="@+id/fdbk"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/lgot"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
