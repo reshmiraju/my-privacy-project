@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.privacy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IP">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".View_profile" />
+        <activity android:name=".Update" />
+        <activity android:name=".Search_frnd" />
+        <activity android:name=".Request" />
+        <activity android:name=".Pvcy" />
+        <activity android:name=".Likes_cmt" />
+        <activity android:name=".Post_photo" />
+        <activity android:name=".Complaint" />
+        <activity android:name=".View_cpt_rply" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Report" />
+        <activity android:name=".View_request" />
+        <activity android:name=".View_post" />
+        <activity android:name=".Chat" />
+        <activity android:name=".comment" />
+        <activity
+            android:name=".user_home"
+            android:label="@string/title_activity_user_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".req_send"></activity>
+    </application>
+
+</manifest>
