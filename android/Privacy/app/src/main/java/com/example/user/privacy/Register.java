@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class Register extends AppCompatActivity {
 ImageView e1;
 RadioButton r1,r2;
-EditText e3,e4,e5,e6,e7,e8,e9,e10,e11;
+EditText e3,e4,e5,e6,e7,e8,e9,e10,e11,e12;
     SharedPreferences sh;
     String url="";
 Button b1;
