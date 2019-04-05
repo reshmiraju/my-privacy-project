@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class Post_photo extends AppCompatActivity {
 ImageView e1;
 EditText e2,e3;
-Button b1;
+Button b1,b2,b3,b4,b5,b6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
