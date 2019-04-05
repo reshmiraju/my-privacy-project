@@ -17,7 +17,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class Feedback extends AppCompatActivity {
-EditText e1;
+EditText e1,e2,e3,e4,e5,e6;
 Button b1;
     SharedPreferences sh;
     String url="",lid="";
