@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class Post_photo extends AppCompatActivity {
-ImageView e1;
+ImageView e1,e2,e3,e4,e5,e5;
 EditText e2,e3;
 Button b1,b2,b3,b4,b5,b6;
     @Override
