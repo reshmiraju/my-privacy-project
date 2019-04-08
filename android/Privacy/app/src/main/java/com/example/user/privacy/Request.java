@@ -19,8 +19,8 @@ import java.util.ArrayList;
 
 public class Request extends AppCompatActivity {
     ImageView v1;
-    EditText e1,e2;
-    Button b1;
+    EditText e1,e2,e3,e4;
+    Button b1,b2;
     SharedPreferences sh;
     String url="",lid="";
     @Override
