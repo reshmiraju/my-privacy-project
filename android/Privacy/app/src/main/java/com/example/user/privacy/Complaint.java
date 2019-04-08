@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 public class Complaint extends AppCompatActivity {
 EditText e1;
-Button b1;
+Button b1,b3,b5;
     SharedPreferences sh;
     String url="",lid="";
     @Override
